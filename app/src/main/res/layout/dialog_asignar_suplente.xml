@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/etDniProfesorTitular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DNI Profesor Titular"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etDniProfesorSuplente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DNI Profesor Suplente"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione la actividad:"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/spinnerActividadSuplente"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etFechaInicioSuplencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Inicio"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etDiasDuracionSuplencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad de Días (Ej: 1, 7, 30)"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

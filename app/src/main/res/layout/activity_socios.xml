@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Pantalla Gestión de Socios -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Logo del club -->
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_club"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Título principal -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gestión de Socios"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón Registrar Socio -->
+        <Button
+            android:id="@+id/btnRegistrarSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Socio"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón Modificar Socio -->
+        <Button
+            android:id="@+id/btnModificarSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modificar Socio"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón Listado de Socios -->
+        <Button
+            android:id="@+id/btnListadoSocios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de Socios"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple" />
+
+    </LinearLayout>
+</ScrollView>

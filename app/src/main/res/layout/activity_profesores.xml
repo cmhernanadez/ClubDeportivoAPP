@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Pantalla Profesores y Suplentes -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Logo del club -->
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_club"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Título principal -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profesores y Suplentes"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón Registrar Profesor -->
+        <Button
+            android:id="@+id/btnRegistrarProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Profesor"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón Registrar Suplente -->
+        <Button
+            android:id="@+id/btnRegistrarSuplente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Suplente"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón Registrar Asistencia -->
+        <Button
+            android:id="@+id/btnRegistrarAsistencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Asistencia"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón Asignar Suplente -->
+        <Button
+            android:id="@+id/btnAsignarSuplente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asignar Suplente"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple" />
+
+    </LinearLayout>
+</ScrollView>

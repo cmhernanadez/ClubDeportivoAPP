@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Pantalla Inscripciones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Logo del club -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_club"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Logo del Club Deportivo" />
+
+        <!-- Título del módulo -->
+        <TextView
+            android:id="@+id/txtTituloInscripciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inscripciones"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón Socio a Actividad -->
+        <Button
+            android:id="@+id/btnSocioAActividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Socio a Actividad"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón No Socio a Actividad -->
+        <Button
+            android:id="@+id/btnNoSocioAActividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Socio a Actividad"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón Validación de Cupos -->
+        <Button
+            android:id="@+id/btnValidacionCupos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Validación Cupos / Ficha médica"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+</ScrollView>

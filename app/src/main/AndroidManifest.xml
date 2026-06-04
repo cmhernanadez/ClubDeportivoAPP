@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ClubDeportivo">
+        <activity
+            android:name=".ListadoMorososActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SociosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoSociosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActividadesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PagosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InscripcionesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NutricionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfesoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListadosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListadoSociosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarNoSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarNoSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListadoNoSociosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarActividadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarActividadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListadoActividadesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerFacturasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListadoPagosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListadoInscripcionesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarProfesorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListadoProfesoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarSuplenteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListadoSuplenciasActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

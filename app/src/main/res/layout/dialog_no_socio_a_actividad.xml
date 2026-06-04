@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/etDniNoSocio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DNI del no socio"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerActividadesNoSocio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etFechaNoSocio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de inscripción"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etMontoNoSocio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto a cobrar ($)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+</LinearLayout>

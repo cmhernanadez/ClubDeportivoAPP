@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Contenedor principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Logo -->
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_club"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actividades"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón Registrar -->
+        <Button
+            android:id="@+id/btnRegistrarActividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Actividad"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón Modificar -->
+        <Button
+            android:id="@+id/btnModificarActividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modificar Actividad"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón Listado -->
+        <Button
+            android:id="@+id/btnListadoActividades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de Actividades"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+</ScrollView>

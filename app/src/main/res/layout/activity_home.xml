@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_club"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/txtTituloHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menú Principal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnActividades"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Actividades"
+                android:textColor="#333333"
+                app:backgroundTint="#FFFFFF"
+                app:icon="@drawable/ic_actividades"
+                app:iconTint="@color/Material_Purple"
+                app:iconTintMode="src_in"
+                app:iconGravity="top"
+                app:iconSize="48dp"
+                app:iconPadding="8dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                app:cornerRadius="16dp"
+                app:elevation="4dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSocios"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Socios"
+                android:textColor="#333333"
+                app:backgroundTint="#FFFFFF"
+                app:icon="@drawable/ic_socios"
+                app:iconTint="@color/Material_Purple"
+                app:iconTintMode="src_in"
+                app:iconGravity="top"
+                app:iconSize="48dp"
+                app:iconPadding="8dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                app:cornerRadius="16dp"
+                app:elevation="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNoSocios"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="No Socios"
+                android:textColor="#333333"
+                app:backgroundTint="#FFFFFF"
+                app:icon="@drawable/ic_no_socios"
+                app:iconTint="@color/Material_Purple"
+                app:iconTintMode="src_in"
+                app:iconGravity="top"
+                app:iconSize="48dp"
+                app:iconPadding="8dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                app:cornerRadius="16dp"
+                app:elevation="4dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPagos"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Pagos"
+                android:textColor="#333333"
+                app:backgroundTint="#FFFFFF"
+                app:icon="@drawable/ic_pagos"
+                app:iconTint="@color/Material_Purple"
+                app:iconTintMode="src_in"
+                app:iconGravity="top"
+                app:iconSize="48dp"
+                app:iconPadding="8dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                app:cornerRadius="16dp"
+                app:elevation="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnInscripciones"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Inscripc."
+                android:textColor="#333333"
+                app:backgroundTint="#FFFFFF"
+                app:icon="@drawable/ic_inscripciones"
+                app:iconTint="@color/Material_Purple"
+                app:iconTintMode="src_in"
+                app:iconGravity="top"
+                app:iconSize="48dp"
+                app:iconPadding="8dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                app:cornerRadius="16dp"
+                app:elevation="4dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNutricion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Nutrición"
+                android:textColor="#333333"
+                app:backgroundTint="#FFFFFF"
+                app:icon="@drawable/ic_nutricion"
+                app:iconTint="@color/Material_Purple"
+                app:iconTintMode="src_in"
+                app:iconGravity="top"
+                app:iconSize="48dp"
+                app:iconPadding="8dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                app:cornerRadius="16dp"
+                app:elevation="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnProfesores"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Profesores"
+                android:textColor="#333333"
+                app:backgroundTint="#FFFFFF"
+                app:icon="@drawable/ic_profesores"
+                app:iconTint="@color/Material_Purple"
+                app:iconTintMode="src_in"
+                app:iconGravity="top"
+                app:iconSize="48dp"
+                app:iconPadding="8dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                app:cornerRadius="16dp"
+                app:elevation="4dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnListados"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Listados"
+                android:textColor="#333333"
+                app:backgroundTint="#FFFFFF"
+                app:icon="@drawable/ic_listados"
+                app:iconTint="@color/Material_Purple"
+                app:iconTintMode="src_in"
+                app:iconGravity="top"
+                app:iconSize="48dp"
+                app:iconPadding="8dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                app:cornerRadius="16dp"
+                app:elevation="4dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

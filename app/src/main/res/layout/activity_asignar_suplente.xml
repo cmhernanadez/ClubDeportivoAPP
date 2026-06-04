@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Pantalla completa Asignar Suplente (no usada, reemplazada por modal) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Logo del club -->
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_club"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Título de la pantalla -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asignar Suplente"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Campo Profesor Titular -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Profesor titular"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo Profesor Suplente -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Profesor suplente"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo Actividad -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Actividad"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo Motivo -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Motivo"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón Asignar -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asignar"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple" />
+
+    </LinearLayout>
+</ScrollView>

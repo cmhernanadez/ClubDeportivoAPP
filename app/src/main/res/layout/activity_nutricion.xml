@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_club"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nutrición"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solo socios pueden agendar turno con nutrición"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etDniNutricion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DNI del socio"
+            android:inputType="number"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etFechaNutricion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha (Ej: 20/05)"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etHoraNutricion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Horario (Ej: 14:00)"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnAgendarNutricion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agendar Turno"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_club"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listados"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnListadoSocios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de Socios"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnListadoNoSocios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de No Socios"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnListadoActividades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de Actividades"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnListadoPagos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de Pagos"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnListadoInscripciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de Inscripciones"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnListadoProfesores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de Profesores"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnListadoSuplencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de Suplencias"
+            android:textColor="@android:color/white"
+            android:background="@color/Material_Purple"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnListadoMorosos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de Morosos"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_dark" />
+
+    </LinearLayout>
+</ScrollView>
